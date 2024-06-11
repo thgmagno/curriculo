@@ -4,7 +4,8 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-tr from-slate-950 to-slate-800 text-zinc-200 px-10 py-20
+    /* @apply bg-gradient-to-tr from-[#120f10] to-stone-800 text-zinc-200 px-10 py-20 */
+    @apply bg-body text-zinc-200 px-10 py-20
   }
 }
 

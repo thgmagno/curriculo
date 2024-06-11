@@ -53,7 +53,7 @@ export function Container() {
     <>
       <div
         ref={containerRef}
-        className="a4-container flex flex-col space-y-4 rounded-lg border border-zinc-600 bg-slate-950/80 shadow-md"
+        className="a4-container flex flex-col space-y-4 rounded-lg border border-zinc-600 bg-neutral-900 shadow-md"
       >
         <Header
           wantedJobTitle={wantedJobTitle}
