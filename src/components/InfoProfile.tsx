@@ -25,7 +25,7 @@ export function InfoProfile({ summary, skills }: Props) {
         </ul>
         <div className="flex flex-col space-y-3">
           <p>Habilidades:</p>
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-3 gap-3">
             {skills.map((skill) => (
               <Skill
                 key={skill.title}
