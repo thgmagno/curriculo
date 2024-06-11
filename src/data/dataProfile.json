@@ -1,0 +1,66 @@
+{
+  "header": {
+    "wantedJobTitle": "",
+    "country": "",
+    "city": "",
+    "email": "",
+    "phone": ""
+  },
+  "profile": {
+    "imgSrc": "",
+    "firstName": "",
+    "lastName": ""
+  },
+  "infoProfile": 
+    {
+      "summary": [
+        {
+          "title": "",
+          "description": ""
+        },
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "skills": [
+        {
+          "title": "",
+          "level": 1
+        },
+        {
+          "title": "",
+          "level": 1
+        }
+      ]
+    }
+  ,
+  "education": [
+    {
+      "school": "",
+      "degree": "",
+      "startAt": "",
+      "endAt": ""
+    },
+    {
+      "school": "",
+      "degree": "",
+      "startAt": "",
+      "endAt": ""
+    }
+  ],
+  "languages": [
+    {
+      "title": "",
+      "level": 1
+    },
+    {
+      "title": "",
+      "level": 1
+    },
+    {
+      "title": "",
+      "level": 1
+    }
+  ]
+}
