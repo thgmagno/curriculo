@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  html, body {
-    @apply bg-slate-900 text-zinc-200 p-10
+  body {
+    @apply bg-gradient-to-tr from-slate-950 to-slate-800 text-zinc-200 px-10 py-20
   }
 }
 

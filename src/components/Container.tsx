@@ -17,7 +17,7 @@ export function Container() {
   const Hr = () => <div className="border-b border-zinc-600" />
 
   return (
-    <div className="a4-container flex flex-col space-y-4 rounded-lg border border-zinc-600 shadow-md">
+    <div className="a4-container flex flex-col space-y-4 rounded-lg border border-zinc-600 bg-slate-950/80 shadow-md">
       <Header
         wantedJobTitle={wantedJobTitle}
         country={country}
