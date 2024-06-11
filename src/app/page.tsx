@@ -1,3 +1,5 @@
+import { Container } from '@/components/Container'
+
 export default function Home() {
-  return <h1>Curriculo</h1>
+  return <Container />
 }

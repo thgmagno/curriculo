@@ -1,66 +1,93 @@
 {
   "header": {
-    "wantedJobTitle": "",
-    "country": "",
-    "city": "",
-    "email": "",
-    "phone": ""
+    "wantedJobTitle": ["programador", "desenvolvedor"],
+    "country": "brasil",
+    "city": "biguaçu",
+    "state": "sc",
+    "email": "thgmgn@gmail.com",
+    "phone": "48 99180-8906"
   },
   "profile": {
-    "imgSrc": "",
-    "firstName": "",
-    "lastName": ""
+    "imgSrc": "/images/thiago.jpg",
+    "firstName": "thiago",
+    "lastName": "magno"
   },
   "infoProfile": 
     {
       "summary": [
         {
-          "title": "",
-          "description": ""
+          "title": "Desenvolvimento Front-end",
+          "description": "Criação de interfaces responsivas e otimizadas, garantindo compatibilidade entre dispositivos."
         },
         {
-          "title": "",
-          "description": ""
+          "title": "Desenvolvimento Back-end",
+          "description": "Implementação de sistemas robustos e escaláveis, com foco em segurança e performance."
+        },
+        {
+          "title": "Integração de APIs",
+          "description": "Conexão de serviços e dados de diversas fontes para fornecer funcionalidades avançadas."
+        },
+        {
+          "title": "UX/UI Design",
+          "description": "Aplicação de princípios de design para melhorar a interação do usuário e a estética visual."
         }
       ],
       "skills": [
         {
-          "title": "",
-          "level": 1
+          "title": "Node.js",
+          "level": 3
         },
         {
-          "title": "",
-          "level": 1
+          "title": "React",
+          "level": 3
+        },
+        {
+          "title": "Next.js",
+          "level": 3
+        },
+        {
+          "title": "Typescript",
+          "level": 3
+        },
+        {
+          "title": "PostgreSQL",
+          "level": 2
+        },
+        {
+          "title": "Prisma ORM",
+          "level": 3
+        },
+        {
+          "title": "Tailwind CSS",
+          "level": 3
+        },
+        {
+          "title": "HTML/CSS",
+          "level": 4
+        },
+        {
+          "title": "API Rest",
+          "level": 3
         }
       ]
     }
   ,
   "education": [
     {
-      "school": "",
-      "degree": "",
-      "startAt": "",
-      "endAt": ""
-    },
-    {
-      "school": "",
-      "degree": "",
-      "startAt": "",
-      "endAt": ""
+      "school": "senai",
+      "degree": "Técnico em Informática",
+      "startAt": "Jun 2017",
+      "endAt": "Jun 2019"
     }
   ],
   "languages": [
     {
-      "title": "",
-      "level": 1
+      "title": "portugês",
+      "level": 4
     },
     {
-      "title": "",
-      "level": 1
-    },
-    {
-      "title": "",
-      "level": 1
+      "title": "inglês",
+      "level": 2
     }
   ]
 }

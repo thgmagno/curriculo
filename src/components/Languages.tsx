@@ -9,7 +9,7 @@ interface Props {
 
 export function Languages({ languages }: Props) {
   return (
-    <div className="flex">
+    <div className="flex p-5">
       <span className="min-w-40 text-sm font-semibold">IDIOMAS</span>
       <div className="grid flex-1 grid-cols-3">
         {languages.map((item) => (
