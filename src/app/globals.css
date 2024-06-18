@@ -11,7 +11,7 @@
 
 @layer components {
   .a4-container {
-    @apply w-[794px] h-[1123px] overflow-hidden mx-auto
+    @apply w-[794px] mx-auto
   }  
 }
 
