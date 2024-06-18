@@ -1,5 +1,5 @@
 import { SkillType } from '../types/SkillType'
-import { SummaryType } from '../types/UserProfile'
+import { SummaryType } from '../types/UserProfileType'
 import { Skill } from './Skill'
 
 export function InfoProfile({

@@ -1,5 +1,5 @@
 import { capitalizeStr } from '@/utils/capitalizeStr'
-import { HeaderType } from '../types/UserProfile'
+import { HeaderType } from '../types/UserProfileType'
 
 export function Header({
   wantedJobTitle,

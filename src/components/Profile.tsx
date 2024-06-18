@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { ProfileType } from '../types/UserProfile'
+import { ProfileType } from '../types/UserProfileType'
 
 export function Profile({ imgSrc, firstName, lastName }: ProfileType) {
   return (

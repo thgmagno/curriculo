@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import type { EducationType } from '../types/UserProfile'
+import type { EducationType } from '../types/UserProfileType'
 
 interface Props {
   education: EducationType[]
@@ -8,7 +8,7 @@ interface Props {
 export function Education({ education }: Props) {
   return (
     <div className="flex p-5">
-      <span className="min-w-40 text-sm font-semibold">EDUCAÇÃO</span>
+      <span className="min-w-40 text-sm font-semibold">FORMAÇÃO</span>
       <div className="flex flex-1 flex-col space-y-3">
         {education.map((item, index) => (
           <div key={index} className="flex flex-col">

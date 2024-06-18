@@ -1,4 +1,4 @@
-import { LanguageType } from '../types/UserProfile'
+import { LanguageType } from '../types/UserProfileType'
 import { Skill } from './Skill'
 
 export function Languages({ languages }: { languages: LanguageType[] }) {
