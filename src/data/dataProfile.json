@@ -62,7 +62,7 @@
           "level": 3
         },
         {
-          "title": "HTML/CSS",
+          "title": "HTML/CSS/JS",
           "level": 4
         },
         {
@@ -78,6 +78,54 @@
       "degree": "Técnico em Informática",
       "startAt": "Jun 2017",
       "endAt": "Jun 2019"
+    },
+    {
+      "school": "IFRS",
+      "degree": "Programador Web",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024"
+    },
+    {
+      "school": "IFRS",
+      "degree": "Projeto de Sistemas Web",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024"
+    },
+    {
+      "school": "IFRS",
+      "degree": "Lógica de Programação",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024"
+    },
+    {
+      "school": "One Bit Code",
+      "degree": "[Formação] Full Stack Javascript",
+      "startAt": "Mar 2024",
+      "endAt": null
+    },
+    {
+      "school": "Cod3r Cursos Online - Udemy",
+      "degree": "Next.JS e React",
+      "startAt": "Jul 2023",
+      "endAt": "Ago 2023"
+    },
+    {
+      "school": "Stephen Grider - Udemy",
+      "degree": "Next.JS: Complete Developer's Guide",
+      "startAt": "Mai 2024",
+      "endAt": "Jun 2024"
+    },
+    {
+      "school": "Hcode Treinamentos - Udemy",
+      "degree": "Nest.JS: Fundamentos",
+      "startAt": "Mai 2024",
+      "endAt": "Jun 2024"
+    },
+    {
+      "school": "Daniel Lopes - Udemy",
+      "degree": "Formação programador backend - Node.JS",
+      "startAt": "Mai 2024",
+      "endAt": "Jun 2024"
     }
   ],
   "languages": [
