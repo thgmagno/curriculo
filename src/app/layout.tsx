@@ -6,8 +6,7 @@ const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Thiago Magno',
-  description:
-    'Conheça Thiago Magno através deste site moderno e responsivo, criado com NextJS para apresentar seu currículo de forma dinâmica.',
+  description: 'Conheça meu portfólio através deste site moderno e responsivo',
 }
 
 export default function RootLayout({

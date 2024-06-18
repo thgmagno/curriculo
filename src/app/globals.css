@@ -14,9 +14,3 @@
     @apply w-[794px] mx-auto
   }  
 }
-
-@media print {
-  html, body {
-    background-color: #0F172ACC;
-  }
-}
