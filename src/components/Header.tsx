@@ -1,13 +1,5 @@
 import { capitalizeStr } from '@/utils/capitalizeStr'
-
-interface Props {
-  wantedJobTitle: string[]
-  country: string
-  city: string
-  state: string
-  email: string
-  phone: string
-}
+import { HeaderType } from '../types/UserProfile'
 
 export function Header({
   wantedJobTitle,
@@ -16,7 +8,7 @@ export function Header({
   state,
   email,
   phone,
-}: Props) {
+}: HeaderType) {
   return (
     <div className="flex items-center justify-between p-5">
       <span>{wantedJobTitle.map((job) => capitalizeStr(job)).join(' / ')}</span>

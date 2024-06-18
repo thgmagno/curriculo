@@ -1,10 +1,8 @@
+import Link from 'next/link'
+import type { EducationType } from '../types/UserProfile'
+
 interface Props {
-  education: {
-    school: string
-    degree: string
-    startAt: string
-    endAt: string | null
-  }[]
+  education: EducationType[]
 }
 
 export function Education({ education }: Props) {
@@ -14,9 +12,13 @@ export function Education({ education }: Props) {
       <div className="flex flex-1 flex-col space-y-3">
         {education.map((item, index) => (
           <div key={index} className="flex flex-col">
-            <span className="text-lg font-medium">
+            <Link
+              href={item.href}
+              target="_blank"
+              className="text-lg font-medium hover:underline"
+            >
               {item.degree}, {item.school.toUpperCase()}.
-            </span>
+            </Link>
             <span className="text-sm font-light">
               {item.startAt} - {item.endAt ?? 'atual'}
             </span>

@@ -1,17 +1,14 @@
+import { SkillType } from '../types/SkillType'
+import { SummaryType } from '../types/UserProfile'
 import { Skill } from './Skill'
 
-interface Props {
-  summary: {
-    title: string
-    description: string
-  }[]
-  skills: {
-    title: string
-    level: 1 | 2 | 3 | 4
-  }[]
-}
-
-export function InfoProfile({ summary, skills }: Props) {
+export function InfoProfile({
+  summary,
+  skills,
+}: {
+  summary: SummaryType[]
+  skills: SkillType[]
+}) {
   return (
     <div className="flex p-5">
       <span className="min-w-40 text-sm font-semibold">PERFIL</span>

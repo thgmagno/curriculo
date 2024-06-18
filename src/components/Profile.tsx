@@ -1,12 +1,7 @@
 import Image from 'next/image'
+import { ProfileType } from '../types/UserProfile'
 
-interface Props {
-  imgSrc: string
-  firstName: string
-  lastName: string
-}
-
-export function Profile({ imgSrc, firstName, lastName }: Props) {
+export function Profile({ imgSrc, firstName, lastName }: ProfileType) {
   return (
     <div className="flex justify-between p-5">
       <div className="mx-10 flex rounded-full border-4 border-zinc-300 shadow-md">
