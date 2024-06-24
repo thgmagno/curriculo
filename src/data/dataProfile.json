@@ -1,6 +1,9 @@
 {
   "header": {
-    "wantedJobTitle": ["programador", "desenvolvedor"],
+    "wantedJobTitle": [
+      "programador",
+      "desenvolvedor"
+    ],
     "country": "brasil",
     "city": "biguaçu",
     "state": "sc",
@@ -12,66 +15,64 @@
     "firstName": "thiago",
     "lastName": "magno"
   },
-  "infoProfile": 
-    {
-      "summary": [
-        {
-          "title": "Desenvolvimento Front-end",
-          "description": "Criação de interfaces responsivas e otimizadas, garantindo compatibilidade entre dispositivos."
-        },
-        {
-          "title": "Desenvolvimento Back-end",
-          "description": "Implementação de sistemas robustos e escaláveis, com foco em segurança e performance."
-        },
-        {
-          "title": "Integração de APIs",
-          "description": "Conexão de serviços e dados de diversas fontes para fornecer funcionalidades avançadas."
-        },
-        {
-          "title": "UX/UI Design",
-          "description": "Aplicação de princípios de design para melhorar a interação do usuário e a estética visual."
-        }
-      ],
-      "skills": [
-        {
-          "title": "Node.js",
-          "level": 3
-        },
-        {
-          "title": "React",
-          "level": 3
-        },
-        {
-          "title": "Next.js",
-          "level": 3
-        },
-        {
-          "title": "Typescript",
-          "level": 3
-        },
-        {
-          "title": "PostgreSQL",
-          "level": 2
-        },
-        {
-          "title": "Prisma ORM",
-          "level": 3
-        },
-        {
-          "title": "Tailwind CSS",
-          "level": 3
-        },
-        {
-          "title": "HTML/CSS/JS",
-          "level": 4
-        },
-        {
-          "title": "API Rest",
-          "level": 4
-        }
-      ]
-    }
-  ,
+  "infoProfile": {
+    "summary": [
+      {
+        "title": "Desenvolvimento Front-end",
+        "description": "Criação de interfaces responsivas e otimizadas, garantindo compatibilidade entre dispositivos."
+      },
+      {
+        "title": "Desenvolvimento Back-end",
+        "description": "Implementação de sistemas robustos e escaláveis, com foco em segurança e performance."
+      },
+      {
+        "title": "Integração de APIs",
+        "description": "Conexão de serviços e dados de diversas fontes para fornecer funcionalidades avançadas."
+      },
+      {
+        "title": "UX/UI Design",
+        "description": "Aplicação de princípios de design para melhorar a interação do usuário e a estética visual."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Node.js",
+        "level": 3
+      },
+      {
+        "title": "React",
+        "level": 3
+      },
+      {
+        "title": "Next.js",
+        "level": 3
+      },
+      {
+        "title": "Typescript",
+        "level": 3
+      },
+      {
+        "title": "PostgreSQL",
+        "level": 2
+      },
+      {
+        "title": "Prisma ORM",
+        "level": 3
+      },
+      {
+        "title": "Tailwind CSS",
+        "level": 3
+      },
+      {
+        "title": "HTML/CSS/JS",
+        "level": 4
+      },
+      {
+        "title": "API Rest",
+        "level": 4
+      }
+    ]
+  },
   "education": [
     {
       "school": "senai",
@@ -92,14 +93,7 @@
       "degree": "Projeto de Sistemas Web",
       "startAt": "Mar 2024",
       "endAt": "Jun 2024",
-      "href": "#"
-    },
-    {
-      "school": "IFRS",
-      "degree": "Lógica de Programação",
-      "startAt": "Mar 2024",
-      "endAt": "Jun 2024",
-      "href": "#"
+      "href": "https://drive.google.com/file/d/1WVbSf8zxDDr91lxq2von0IOaXmO2OEID/view?usp=sharing"
     },
     {
       "school": "One Bit Code",
@@ -107,6 +101,55 @@
       "startAt": "Mar 2024",
       "endAt": null,
       "href": "#"
+    },
+    {
+      "school": "IFRS",
+      "degree": "HTML: tabelas e formulários,",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024",
+      "href": "https://drive.google.com/file/d/1Zj8q_pm2nu0krIv2NDV83pMrEizpKNv-/view?usp=sharing"
+    },
+    {
+      "school": "IFRS",
+      "degree": "HTML: Introdução ao desenvolvimento de páginas web",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024",
+      "href": "https://drive.google.com/file/d/1KXpwMwesx2kSnP8_bzN2dU_O1adXMLkt/view?usp=sharing"
+    },
+    {
+      "school": "IFRS",
+      "degree": "CSS: folhas de estilo",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024",
+      "href": "https://drive.google.com/file/d/1yAkt1Iuur4FfL_yuGoVmpu1CXlY1m2Y1/view?usp=sharing"
+    },
+    {
+      "school": "IFRS",
+      "degree": "JavaScript",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024",
+      "href": "https://drive.google.com/file/d/1AastPga985JGsrIPL7B_yFoIxxzWMDlw/view?usp=sharing"
+    },
+    {
+      "school": "IFRS",
+      "degree": "Lógica de Programação",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024",
+      "href": "https://drive.google.com/file/d/19rNVDijaJpDGqgcngFXRrFvb8qTWw4rG/view?usp=sharing"
+    },
+    {
+      "school": "IFRS",
+      "degree": "Lógica de Programação: começando a desenvolver seus primeiros programas",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024",
+      "href": "https://drive.google.com/file/d/1e4SRrVKV94FJv4G2AJbBJVzcHxa9P2qd/view?usp=sharing"
+    },
+    {
+      "school": "IFRS",
+      "degree": "Lógica de Programação: deixando os seus programas espertos",
+      "startAt": "Mar 2024",
+      "endAt": "Jun 2024",
+      "href": "https://drive.google.com/file/d/1txRNHPAuLx-85f7Utdm5lp3zzLutBe-Z/view?usp=sharing"
     },
     {
       "school": "Cod3r Cursos Online - Udemy",
