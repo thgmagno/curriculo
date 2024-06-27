@@ -1,21 +1,38 @@
-import Image from 'next/image'
-import { ProfileType } from '../types/UserProfileType'
-
-export function Profile({ imgSrc, firstName, lastName }: ProfileType) {
+export function Profile() {
   return (
-    <div className="flex justify-between p-5">
-      <div className="mx-10 flex rounded-full border-4 border-zinc-300 shadow-md">
-        <Image
-          src={imgSrc}
-          height={200}
-          width={200}
-          alt="Imagem do usuário"
-          className="rounded-full"
-        />
-      </div>
-      <div className="flex flex-1 flex-col justify-center space-y-2 font-serif text-7xl font-medium tracking-widest">
-        <span>{firstName.toUpperCase()}</span>
-        <span>{lastName.toUpperCase()}</span>
+    <div className="flex text-sm">
+      <h2 className="w-1/4 font-bold uppercase">Interesses</h2>
+      <div className="w-3/4">
+        <ul className="flex flex-col space-y-1.5">
+          <li>
+            <b>Desenvolvimento Front-end:</b>{' '}
+            <em>
+              Criação de interfaces responsivas e otimizadas, garantindo
+              compatibilidade entre dispositivos.
+            </em>
+          </li>
+          <li>
+            <b>Desenvolvimento Back-end:</b>{' '}
+            <em>
+              Implementação de sistemas robustos e escaláveis, com foco em
+              segurança e performance.
+            </em>
+          </li>
+          <li>
+            <b>Integração de APIs:</b>{' '}
+            <em>
+              Conexão de serviços e dados de diversas fontes para fornecer
+              funcionalidade avançadas.
+            </em>
+          </li>
+          <li>
+            <b>UX/UI Design:</b>{' '}
+            <em>
+              Aplicação de princípios de design para melhorar a interação do
+              usuário e a estética visual.
+            </em>
+          </li>
+        </ul>
       </div>
     </div>
   )

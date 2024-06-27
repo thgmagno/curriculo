@@ -1,5 +1,5 @@
+import { Education as EducationType } from '@/lib/cosmic-types'
 import Link from 'next/link'
-import type { EducationType } from '../types/UserProfileType'
 
 interface Props {
   education: EducationType[]
@@ -7,24 +7,24 @@ interface Props {
 
 export function Education({ education }: Props) {
   return (
-    <div className="flex p-5">
-      <span className="min-w-40 text-sm font-semibold">FORMAÇÃO</span>
-      <div className="flex flex-1 flex-col space-y-3">
-        {education.map((item, index) => (
-          <div key={index} className="flex flex-col">
+    <div className="flex text-sm">
+      <h2 className="w-1/4 font-bold uppercase">Formação</h2>
+      <ul className="flex w-3/4 flex-col space-y-1.5">
+        {education.map((education) => (
+          <li key={education.degree}>
             <Link
-              href={item.href}
+              href={education.document_url}
               target="_blank"
-              className="text-lg font-medium hover:underline"
+              className="hover:underline"
             >
-              {item.degree}, {item.school.toUpperCase()}.
+              <b>
+                {education.degree}, {education.instituition}
+              </b>{' '}
+              <em>({education.duration} horas)</em>
             </Link>
-            <span className="text-sm font-light">
-              {item.startAt} - {item.endAt ?? 'atual'}
-            </span>
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   )
 }

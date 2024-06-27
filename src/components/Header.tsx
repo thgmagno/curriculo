@@ -1,24 +1,21 @@
-import { capitalizeStr } from '@/utils/capitalizeStr'
-import { HeaderType } from '../types/UserProfileType'
+interface Props {
+  occupationArea: string
+  info: {
+    address: string
+    email: string
+    phone: string
+  }
+}
 
-export function Header({
-  wantedJobTitle,
-  country,
-  city,
-  state,
-  email,
-  phone,
-}: HeaderType) {
+export function Header({ occupationArea, info }: Props) {
   return (
-    <div className="flex items-center justify-between p-5">
-      <span>{wantedJobTitle.map((job) => capitalizeStr(job)).join(' / ')}</span>
-      <div className="flex flex-col items-end">
-        <span>
-          {capitalizeStr(city)}-{state.toUpperCase()}, {capitalizeStr(country)}
-        </span>
-        <span>{email}</span>
-        <span>{phone}</span>
-      </div>
-    </div>
+    <header className="flex items-center justify-between">
+      <b>{occupationArea}</b>
+      <section className="text-end">
+        <p>{info.address}</p>
+        <p>{info.email}</p>
+        <p>{info.phone}</p>
+      </section>
+    </header>
   )
 }
