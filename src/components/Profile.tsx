@@ -1,8 +1,8 @@
 export function Profile() {
   return (
-    <div className="flex text-sm">
-      <h2 className="w-1/4 font-bold uppercase">Interesses</h2>
-      <div className="w-3/4">
+    <div className="flex flex-col text-sm sm:flex-row">
+      <h2 className="mb-2 w-1/4 font-bold uppercase">Interesses</h2>
+      <div className="sm:w-3/4">
         <ul className="flex flex-col space-y-1.5">
           <li>
             <b>Desenvolvimento Front-end:</b>{' '}

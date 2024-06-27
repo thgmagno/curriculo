@@ -18,9 +18,9 @@ export function Skills() {
   )
 
   return (
-    <div className="flex text-sm">
-      <h2 className="w-1/4 font-bold uppercase">Habilidades</h2>
-      <div className="grid w-3/4 grid-cols-3 gap-2">
+    <div className="flex flex-col text-sm sm:flex-row">
+      <h2 className="mb-2 w-1/4 font-bold uppercase">Habilidades</h2>
+      <div className="grid grid-cols-3 gap-2 text-xs sm:w-3/4 sm:text-sm md:text-base">
         <Item imageSrc="/icons/node.svg" label="Node" href="#" />
         <Item imageSrc="/icons/react.svg" label="React" href="#" />
         <Item imageSrc="/icons/next.svg" label="Next.JS" href="#" />

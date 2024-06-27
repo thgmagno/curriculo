@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 export function Social() {
   return (
-    <div className="flex text-sm">
-      <h2 className="w-1/4 font-bold uppercase">Social</h2>
-      <div className="w-3/4">
-        <div className="mb-5 mr-5 flex">
-          <div className="flex flex-1 flex-col">
+    <div className="flex flex-col text-sm sm:flex-row">
+      <h2 className="mb-2 w-1/4 font-bold uppercase">Social</h2>
+      <div className="sm:w-3/4">
+        <div className="mb-5 mr-5 flex w-full justify-between">
+          <div className="flex flex-col truncate sm:flex-1">
             <b>Github</b>
             <Link
               href="https://github.com/thgmagno"
-              className="hover:underline"
+              className="max-w-sm truncate hover:underline"
             >
               https://github.com/thgmagno
             </Link>
@@ -23,12 +23,12 @@ export function Social() {
             alt="QRCode Github"
           />
         </div>
-        <div className="mb-5 mr-5 flex">
-          <div className="flex flex-1 flex-col">
+        <div className="mb-5 mr-5 flex w-full justify-between">
+          <div className="flex flex-col truncate sm:flex-1">
             <b>Linkedin</b>
             <Link
               href="https://www.linkedin.com/in/thgmagno"
-              className="hover:underline"
+              className="max-w-sm truncate hover:underline"
             >
               https://www.linkedin.com/in/thgmagno
             </Link>
@@ -40,12 +40,12 @@ export function Social() {
             alt="QRCode Linkedin"
           />
         </div>
-        <div className="mb-5 mr-5 flex">
-          <div className="flex flex-1 flex-col">
+        <div className="mb-5 mr-5 flex w-full justify-between">
+          <div className="flex flex-col truncate sm:flex-1">
             <b>Portfólio</b>
             <Link
               href="https://portfolio-six-tan-13.vercel.app"
-              className="hover:underline"
+              className="max-w-sm truncate hover:underline"
             >
               https://portfolio-six-tan-13.vercel.app
             </Link>

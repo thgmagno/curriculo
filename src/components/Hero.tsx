@@ -10,17 +10,16 @@ export function Hero({ fullName, imageUrl }: Props) {
   const surName = fullName.split(' ')[1]
 
   return (
-    <div className="mx-auto flex justify-between gap-5">
-      <div className="flex flex-1 items-center justify-center">
+    <div className="grid grid-cols-2 items-center gap-5">
+      <div className="relative mx-auto flex h-20 w-20 items-center justify-center overflow-hidden rounded-full ring-4 ring-zinc-600 sm:h-32 sm:w-32 md:h-40 md:w-40">
         <Image
           src={imageUrl}
-          height={150}
-          width={150}
           alt={`imagem de ${fullName}`}
-          className="rounded-full ring-4 ring-zinc-600"
+          layout="fill"
+          objectFit="cover"
         />
       </div>
-      <h1 className="flex flex-1 -translate-x-10 flex-col justify-center gap-3 text-6xl uppercase">
+      <h1 className="flex -translate-x-8 flex-col justify-center gap-3 text-3xl uppercase sm:text-6xl">
         <span>{name}</span>
         <span>{surName}</span>
       </h1>

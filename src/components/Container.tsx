@@ -25,7 +25,7 @@ export function Container({ metadata }: { metadata: Metadata }) {
       <ButtonPrint handlePrint={handlePrint} />
       <div
         ref={contentDocument}
-        className="m-5 mx-auto max-w-2xl space-y-10 rounded-2xl border-2 bg-stone-200 p-5 text-zinc-600"
+        className="m-5 mx-auto w-[96%] max-w-2xl space-y-10 rounded-2xl border-2 bg-stone-200 p-5 text-zinc-600"
       >
         <Header
           occupationArea={metadata.occupation_area}

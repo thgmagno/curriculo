@@ -9,9 +9,9 @@ interface Props {
 
 export function Header({ occupationArea, info }: Props) {
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between text-sm md:text-base">
       <b>{occupationArea}</b>
-      <section className="text-end">
+      <section className="text-end text-xs sm:text-sm md:text-base">
         <p>{info.address}</p>
         <p>{info.email}</p>
         <p>{info.phone}</p>
