@@ -11,7 +11,7 @@ export function Social() {
             <b>Github</b>
             <Link
               href="https://github.com/thgmagno"
-              className="max-w-sm truncate hover:underline"
+              className="mr-5 max-w-sm truncate hover:underline"
             >
               https://github.com/thgmagno
             </Link>
@@ -28,7 +28,7 @@ export function Social() {
             <b>Linkedin</b>
             <Link
               href="https://www.linkedin.com/in/thgmagno"
-              className="max-w-sm truncate hover:underline"
+              className="mr-5 max-w-sm truncate hover:underline"
             >
               https://www.linkedin.com/in/thgmagno
             </Link>
@@ -45,7 +45,7 @@ export function Social() {
             <b>Portfólio</b>
             <Link
               href="https://portfolio-six-tan-13.vercel.app"
-              className="max-w-sm truncate hover:underline"
+              className="mr-5 max-w-sm truncate hover:underline"
             >
               https://portfolio-six-tan-13.vercel.app
             </Link>

@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
-import { Montserrat } from 'next/font/google'
+import { Bai_Jamjuree as Baijamjuree } from 'next/font/google'
 import './globals.css'
 
-const montserrat = Montserrat({ subsets: ['latin'] })
+const baijamjuree = Baijamjuree({
+  subsets: ['latin'],
+  weight: ['300', '400', '500'],
+})
 
 export const metadata: Metadata = {
   title: 'Thiago Magno',
@@ -16,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={montserrat.className}>{children}</body>
+      <body className={baijamjuree.className}>{children}</body>
     </html>
   )
 }

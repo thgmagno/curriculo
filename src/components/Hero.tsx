@@ -19,7 +19,7 @@ export function Hero({ fullName, imageUrl }: Props) {
           objectFit="cover"
         />
       </div>
-      <h1 className="flex -translate-x-8 flex-col justify-center gap-3 text-3xl uppercase sm:text-6xl">
+      <h1 className="flex -translate-x-8 flex-col justify-center gap-3 font-serif text-3xl uppercase sm:text-6xl">
         <span>{name}</span>
         <span>{surName}</span>
       </h1>
