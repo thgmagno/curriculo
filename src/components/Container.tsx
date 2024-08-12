@@ -28,17 +28,21 @@ export function Container({ metadata }: { metadata: Metadata }) {
         className="m-5 mx-auto w-[96%] max-w-2xl space-y-10 rounded-2xl border-2 bg-stone-200 p-5 text-zinc-600"
       >
         <Header
-          occupationArea={metadata.occupation_area}
-          info={metadata.info}
+          occupationArea={metadata.home['occupation-area'].portuguese}
+          info={{
+            address: 'Biguaçu - SC',
+            email: 'thgmgn@gmail.com',
+            phone: '(48) 99180-8906',
+          }}
         />
         <Hero
-          fullName={metadata.full_name}
-          imageUrl={metadata.image_profile.url}
+          fullName={metadata.home.fullname}
+          imageUrl={metadata.home['image-profile'].url}
         />
         <About
           about={[
-            metadata.insights[0].paragraph,
-            metadata.insights[3].paragraph,
+            metadata.home['about-me'].portuguese.data[0],
+            metadata.home['about-me'].portuguese.data[1],
           ]}
         />
         <Profile />

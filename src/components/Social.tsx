@@ -10,6 +10,7 @@ export function Social() {
           <div className="flex flex-col truncate sm:flex-1">
             <b>Github</b>
             <Link
+              target="_blank"
               href="https://github.com/thgmagno"
               className="mr-5 max-w-sm truncate hover:underline"
             >
@@ -27,6 +28,7 @@ export function Social() {
           <div className="flex flex-col truncate sm:flex-1">
             <b>Linkedin</b>
             <Link
+              target="_blank"
               href="https://www.linkedin.com/in/thgmagno"
               className="mr-5 max-w-sm truncate hover:underline"
             >
@@ -44,10 +46,11 @@ export function Social() {
           <div className="flex flex-col truncate sm:flex-1">
             <b>Portfólio</b>
             <Link
-              href="https://portfolio-six-tan-13.vercel.app"
+              target="_blank"
+              href="https://thgmagno.vercel.app/"
               className="mr-5 max-w-sm truncate hover:underline"
             >
-              https://portfolio-six-tan-13.vercel.app
+              https://thgmagno.vercel.app/
             </Link>
           </div>
           <Image

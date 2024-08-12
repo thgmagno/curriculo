@@ -11,14 +11,14 @@ export function Education({ education }: Props) {
       <h2 className="mb-2 w-1/4 font-bold uppercase">Formação</h2>
       <ul className="flex flex-col space-y-1.5 sm:w-3/4">
         {education.map((education) => (
-          <li key={education.degree}>
+          <li key={education.degree.portuguese}>
             <Link
-              href={education.document_url}
+              href={education['document-url']}
               target="_blank"
               className="hover:underline"
             >
               <b>
-                {education.degree}, {education.instituition}
+                {education.degree.portuguese}, {education.instituition}
               </b>{' '}
               <em>({education.duration} horas)</em>
             </Link>

@@ -42,11 +42,6 @@ export function Skills() {
           href="https://www.typescriptlang.org/"
         />
         <Item
-          imageSrc="/icons/sql.svg"
-          label="SQL"
-          href="https://www.postgresql.org/"
-        />
-        <Item
           imageSrc="/icons/prisma.svg"
           label="Prisma"
           href="https://www.prisma.io/"
@@ -57,9 +52,14 @@ export function Skills() {
           href="https://www.w3schools.in/restful-web-services/intro#google_vignette"
         />
         <Item
-          imageSrc="/icons/tailwind.svg"
-          label="Tailwind"
-          href="https://tailwindcss.com/"
+          imageSrc="/icons/sql.svg"
+          label="SQL"
+          href="https://www.postgresql.org/"
+        />
+        <Item
+          imageSrc="/icons/php.svg"
+          label="PHP"
+          href="https://www.php.net/"
         />
         <Item
           imageSrc="/icons/html.svg"

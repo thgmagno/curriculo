@@ -1,88 +1,122 @@
-interface Insights {
-  paragraph: string
+interface OccupationArea {
+  portuguese: string
+  english: string
 }
 
-interface SocialNetwork {
-  social: string
+interface ImageProfile {
   url: string
+}
+
+interface SocialLink {
+  href: string
+  label: string
+}
+
+interface AboutMeData {
+  title: string
+  data: string[]
+}
+
+interface AboutMe {
+  portuguese: AboutMeData
+  english: AboutMeData
+}
+
+interface Interests {
+  portuguese: AboutMeData
+  english: AboutMeData
+}
+
+interface AboutPortfolio {
+  portuguese: AboutMeData
+  english: AboutMeData
+}
+
+interface Home {
+  fullname: string
+  'occupation-area': OccupationArea
+  'image-profile': ImageProfile
+  social: SocialLink[]
+  'about-me': AboutMe
+  interests: Interests
+  'about-portfolio': AboutPortfolio
+}
+
+interface InstituitionLogo {
+  url: string
+}
+
+interface Degree {
+  portuguese: string
+  english: string
+}
+
+interface Category {
+  key: string
+  value: string
 }
 
 export interface Education {
   instituition: string
-  degree: string
-  duration: string
-  started_at: string
-  ended_at: string | null
-  category: string
-  document_url: string
+  'instituition-logo': InstituitionLogo
+  degree: Degree
+  duration: number
+  startedAt: string
+  endedAt: string
+  category: Category
+  'document-url': string
+}
+
+interface ProjectDescription {
+  portuguese: string
+  english: string
+}
+
+interface ProjectObjective {
+  portuguese: string
+  english: string
+}
+
+interface ProjectFeature {
+  title: string
+  description: string
+}
+
+interface ProjectFeatures {
+  portuguese: ProjectFeature[]
+  english: ProjectFeature[]
+}
+
+interface Technology {
+  title: string
+  url: string
+}
+
+interface ProjectData {
+  title: string
+  slug: string
+  description: ProjectDescription
+  objective: ProjectObjective
+  url: string
+  features: ProjectFeatures
+  technologies: Technology[]
 }
 
 interface ProjectImage {
   url: string
-  imgix_url: string
 }
 
-export interface Project {
-  title: string
-  slug: string
-  description: string
-  project_image: ProjectImage
-  project_url: string
-  objective: string
-}
-
-interface Feature {
-  slug: string
-  metadata: {
-    features: {
-      title: string
-      description: string
-    }[]
-  }
-}
-
-interface Technology {
-  slug: string
-  metadata: {
-    technologies: {
-      title: string
-      url: string
-    }[]
-  }
-}
-
-export interface Post {
-  slug: string
-  metadata: {
-    title: string
-    content: string
-    slug: string
-    published_at: string
-    tags: {
-      tag: string
-    }[]
-  }
+interface Project {
+  data: ProjectData
+  image: ProjectImage
+  createdAt: string
+  done: boolean
 }
 
 export interface Metadata {
-  full_name: string
-  occupation_area: string
-  image_profile: {
-    url: string
-    imgix_url: string
-  }
-  insights: Insights[]
-  social_network: SocialNetwork[]
+  home: Home
   education: Education[]
   projects: Project[]
-  features: Feature[]
-  technologies: Technology[]
-  blog: Post[]
-  info: {
-    address: string
-    email: string
-    phone: string
-  }
 }
 
 export interface CosmicObject {
