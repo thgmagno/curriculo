@@ -30,7 +30,7 @@ export function Container({ metadata }: { metadata: Metadata }) {
         <Header
           occupationArea={metadata.home['occupation-area'].portuguese}
           info={{
-            address: 'Biguaçu - SC',
+            address: 'Biguaçu-SC, Brasil',
             email: 'thgmgn@gmail.com',
             phone: '(48) 99180-8906',
           }}
