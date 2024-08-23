@@ -12,6 +12,8 @@ import { Language } from './Language'
 import { About } from './About'
 import { Skills } from './Skills'
 import { Social } from './Social'
+import { Experiences } from './Experiences'
+import { Qualifications } from './Qualifications'
 
 export function Container({ metadata }: { metadata: Metadata }) {
   const contentDocument = useRef<HTMLDivElement | null>(null)
@@ -46,6 +48,8 @@ export function Container({ metadata }: { metadata: Metadata }) {
           ]}
         />
         <Profile />
+        <Experiences />
+        <Qualifications />
         <Skills />
         <Education education={metadata.education} />
         <Language />
