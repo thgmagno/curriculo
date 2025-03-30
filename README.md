@@ -1,19 +1,14 @@
-# 📌 Currículo Virtual - Thiago Magno
+# Currículo Virtual - Thiago Magno
 
-Este projeto apresenta informações detalhadas sobre minhas experiências e habilidades como desenvolvedor.
+Este projeto apresenta informações detalhadas sobre minhas experiências e habilidades como desenvolvedor. A ideia é fornecer uma visão estruturada e dinâmica do meu percurso profissional, facilitando o acesso às informações mais relevantes sobre minha trajetória e competências.
 
-## 🎯 Funcionalidades
-- **Gerar PDF:** Possibilidade de exportar o currículo em PDF de forma prática.
-- **Categorias e Tópicos:** O currículo é dividido em seções, abordando experiências, habilidades, projetos e formação.
+## Funcionalidades
 
-## 📜 Sobre o Projeto
-Sou um desenvolvedor web Full Stack buscando criar soluções digitais inovadoras. Minha jornada na programação começou em 2017, com um curso técnico profissionalizante. Desde então, venho me dedicando ao desenvolvimento de software, sempre aplicando as melhores práticas do mercado e me mantendo atualizado com novas tecnologias.
+- Geração de currículo em PDF.
+- Organização por categorias, destacando experiências, habilidades, projetos e formação.
+- Atualização dinâmica dos dados, garantindo sempre informações atualizadas.
+- Interface intuitiva para facilitar a navegação.
 
-## 🌍 Idiomas
-- **Português:** Nativo
-- **Inglês:** Intermediário
+O projeto foi desenvolvido com foco na acessibilidade e experiência do usuário, proporcionando uma navegação fluida e eficiente. A ideia é que qualquer recrutador ou interessado possa visualizar rapidamente as principais informações sem a necessidade de documentos estáticos ou desatualizados. Além disso, o sistema permite a personalização de dados e a exportação para facilitar o compartilhamento.
 
-## 📱 Social
-- [GitHub](https://github.com/thgmagno)
-- [LinkedIn](https://www.linkedin.com/in/thgmagno)
-- [Portfólio](https://thgmagno.vercel.app/)
+Outra vantagem é a possibilidade de integrar fontes externas, como o GitHub, para manter os dados sempre atualizados, eliminando a necessidade de edições manuais constantes. Assim, o currículo virtual se mantém relevante e atualizado.
