@@ -13,12 +13,12 @@ export function Experiences() {
             desenvolver APIs e manter sistemas em pleno funcionamento.
           </p>
           <p>
-            <b>Linguagens de programação</b>: Tenho domínio nas linguagens PHP,
-            Python e Javascript.
+            <b>Linguagens de programação</b>: Tenho domínio nas linguagens
+            Typescript, Java, PHP, Python.
           </p>
           <p>
-            <b>Bibliotecas e frameworks</b>: Laravel, NextJs, React, Node,
-            Express, NestJs.
+            <b>Bibliotecas e frameworks</b>: Next.js, React, Node.js, Laravel, e
+            outras.
           </p>
           <p>
             <b>Constante evolução</b>: Além disso, estou sempre buscando

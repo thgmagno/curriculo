@@ -11,7 +11,7 @@ export function Skills() {
     label: string
     href: string
   }) => (
-    <Link href={href} className="flex gap-1 hover:underline">
+    <Link href={href} className="flex gap-1">
       <Image src={imageSrc} width={20} height={20} alt={`Logotipo ${label}`} />
       <b>{label}</b>
     </Link>
@@ -22,9 +22,9 @@ export function Skills() {
       <h2 className="mb-2 w-1/4 font-bold uppercase">Habilidades</h2>
       <div className="grid grid-cols-3 gap-2 text-xs sm:w-3/4 sm:text-sm md:text-base">
         <Item
-          imageSrc="/icons/node.svg"
-          label="Node"
-          href="https://nodejs.org/"
+          imageSrc="/icons/next.svg"
+          label="Next.JS"
+          href="https://nextjs.org/"
         />
         <Item
           imageSrc="/icons/react.svg"
@@ -32,9 +32,9 @@ export function Skills() {
           href="https://react.dev/"
         />
         <Item
-          imageSrc="/icons/next.svg"
-          label="Next.JS"
-          href="https://nextjs.org/"
+          imageSrc="/icons/node.svg"
+          label="Node"
+          href="https://nodejs.org/"
         />
         <Item
           imageSrc="/icons/typescript.svg"
@@ -42,14 +42,24 @@ export function Skills() {
           href="https://www.typescriptlang.org/"
         />
         <Item
+          imageSrc="/icons/api.svg"
+          label="API Rest"
+          href="https://www.w3schools.in/restful-web-services/intro#google_vignette"
+        />
+        <Item
           imageSrc="/icons/prisma.svg"
           label="Prisma"
           href="https://www.prisma.io/"
         />
         <Item
-          imageSrc="/icons/api.svg"
-          label="API Rest"
-          href="https://www.w3schools.in/restful-web-services/intro#google_vignette"
+          imageSrc="/icons/java.svg"
+          label="Java"
+          href="https://www.java.com/pt-BR/"
+        />
+        <Item
+          imageSrc="/icons/php.svg"
+          label="PHP"
+          href="https://www.php.net/"
         />
         <Item
           imageSrc="/icons/sql.svg"
@@ -57,9 +67,9 @@ export function Skills() {
           href="https://www.postgresql.org/"
         />
         <Item
-          imageSrc="/icons/php.svg"
-          label="PHP"
-          href="https://www.php.net/"
+          imageSrc="/icons/tailwind.svg"
+          label="Tailwind"
+          href="https://tailwindcss.com/"
         />
         <Item
           imageSrc="/icons/html.svg"

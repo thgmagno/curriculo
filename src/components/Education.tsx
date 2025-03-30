@@ -12,11 +12,7 @@ export function Education({ education }: Props) {
       <ul className="flex flex-col space-y-1.5 sm:w-3/4">
         {education.map((education) => (
           <li key={education.degree.portuguese}>
-            <Link
-              href={education['document-url']}
-              target="_blank"
-              className="hover:underline"
-            >
+            <Link href={education['document-url']} target="_blank">
               <b>
                 {education.degree.portuguese}, {education.instituition}
               </b>{' '}

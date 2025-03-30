@@ -12,7 +12,7 @@ export function Social() {
             <Link
               target="_blank"
               href="https://github.com/thgmagno"
-              className="mr-5 max-w-sm truncate hover:underline"
+              className="mr-5 max-w-sm truncate"
             >
               https://github.com/thgmagno
             </Link>
@@ -30,7 +30,7 @@ export function Social() {
             <Link
               target="_blank"
               href="https://www.linkedin.com/in/thgmagno"
-              className="mr-5 max-w-sm truncate hover:underline"
+              className="mr-5 max-w-sm truncate"
             >
               https://www.linkedin.com/in/thgmagno
             </Link>
@@ -48,7 +48,7 @@ export function Social() {
             <Link
               target="_blank"
               href="https://thgmagno.vercel.app/"
-              className="mr-5 max-w-sm truncate hover:underline"
+              className="mr-5 max-w-sm truncate"
             >
               https://thgmagno.vercel.app/
             </Link>

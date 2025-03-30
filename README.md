@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Currículo Virtual - Thiago Magno
 
-## Getting Started
+Este projeto apresenta informações detalhadas sobre minhas experiências e habilidades como desenvolvedor.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Gerar PDF:** Possibilidade de gerar o currículo em PDF de forma fácil e prática.
+- **Categorias e Tópicos:** O currículo é dividido em categorias, com tópicos que detalham as experiências, habilidades, projetos e formação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 👨‍💻 Informações
 
-## Learn More
+- **Nome:** Thiago Magno
+- **Profissão:** Desenvolvedor Web - Full Stack
+- **Localização:** Biguaçu-SC, Brasil
+- **Email:** thgmgn@gmail.com
+- **Telefone:** (48) 99180-8906
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Sobre
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Sou um desenvolvedor web buscando criar soluções digitais inovadoras e eficientes. Minha jornada começou em 2017, com um curso técnico profissionalizante. Desde então, venho me dedicando à programação, aplicando as melhores práticas do mercado e mantendo a mente aberta para novas ideias e tecnologias.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Interesses
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Desenvolvimento Front-end:** Criação de interfaces responsivas e otimizadas, garantindo compatibilidade entre dispositivos.
+- **Desenvolvimento Back-end:** Implementação de sistemas robustos e escaláveis, com foco em segurança e performance.
+- **Integração de APIs:** Conexão de serviços e dados de diversas fontes.
+- **UX/UI Design:** Aplicação de princípios de design para melhorar a interação do usuário.
+
+---
+
+## 🛠️ Experiências
+
+- **Desenvolvimento de Software:** Experiência em desenvolvimento e gerenciamento de software.
+- **Manutenção de Sistemas:** Criação de funcionalidades, desenvolvimento de APIs e manutenção de sistemas.
+- **Linguagens de Programação:** Typescript, Java, PHP, Python.
+- **Frameworks e Bibliotecas:** 
+  - **TypeScript/JavaScript:** Next.js, React, Node.js, Express, Nest.js
+  - **PHP:** Laravel
+  - **Java:** Spring Boot, Hibernate, JPA
+  - **Python:** Flask, Django
+
+---
+
+## 📜 Qualificações
+
+- Implementação de funcionalidades (ex.: formulários, anexos de documentos).
+- Correção de bugs (ex.: problemas de cadastro, duplicidade de dados).
+- Customização de grids e relatórios.
+- Criação de documentação de APIs.
+- Desenvolvimento de interfaces e layouts.
+
+---
+
+## 🧑‍💻 Habilidades
+
+- **Next.js**
+- **React**
+- **Node.js**
+- **TypeScript**
+- **API Rest**
+- **Prisma**
+- **Java**
+- **PHP**
+- **SQL**
+- **Tailwind**
+- **HTML/CSS/JS**
+
+---
+
+## 🎓 Formação
+
+- **Engenharia de Software** - Universidade Estacio De Sá
+- **Técnico em Informática** - Serviço Nacional de Aprendizagem Industrial
+- **Desenvolvedor Web** - Instituto Federal do Rio Grande do Sul
+- **Full-stack Typescript/Javascript** - OneBitCode
+- **HTML, CSS, Javascript, Lógica de Programação** - Instituto Federal do Rio Grande do Sul
+
+---
+
+## 🌍 Idiomas
+
+- **Português:** Nativo
+- **Inglês:** Intermediário
+
+---
+
+## 📱 Social
+
+- [GitHub](https://github.com/thgmagno)
+- [LinkedIn](https://www.linkedin.com/in/thgmagno)
+- [Portfólio](https://thgmagno.vercel.app/)

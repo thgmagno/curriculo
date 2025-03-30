@@ -4,6 +4,9 @@
 
 @layer base {
   body {
-    @apply bg-neutral-500
+    @apply bg-neutral-900 pb-32
+  }
+  a {
+   @apply hover:underline hover:text-blue-600
   }
 }

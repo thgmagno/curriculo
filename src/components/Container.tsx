@@ -14,8 +14,16 @@ import { Skills } from './Skills'
 import { Social } from './Social'
 import { Experiences } from './Experiences'
 import { Qualifications } from './Qualifications'
+import { Projects } from './Projects'
+import { Repository } from '@/lib/repository-types'
 
-export function Container({ metadata }: { metadata: Metadata }) {
+export function Container({
+  metadata,
+  repos,
+}: {
+  metadata: Metadata
+  repos: Repository[]
+}) {
   const contentDocument = useRef<HTMLDivElement | null>(null)
 
   const handlePrint = useReactToPrint({
@@ -51,6 +59,7 @@ export function Container({ metadata }: { metadata: Metadata }) {
         <Experiences />
         <Qualifications />
         <Skills />
+        <Projects repos={repos} />
         <Education education={metadata.education} />
         <Language />
         <Social />
