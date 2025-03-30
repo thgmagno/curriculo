@@ -7,6 +7,9 @@ const fetcherRepositories = async (): Promise<Repository[]> =>
     headers: {
       Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
     },
+    next: {
+      revalidate: 1800,
+    },
   }).then((res) => res.json())
 
 export default async function Home() {
